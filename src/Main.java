@@ -20,19 +20,19 @@ public class Main {
         }
         //Hace la suma de las filas
         for (int i = 0; i < 3; i++) {
-            int suma=0;
+            int sumaFilas=0;
             for (int j = 0; j < 3; j++) {
-                suma+=numeros[i][j];
+                sumaFilas+=numeros[i][j];
             }
-            System.out.println("Suma de la fila "+ (i+1)+ " es " + suma);
+            System.out.println("Suma de la fila "+ (i+1)+ " es " + sumaFilas);
         }
 //Hace la suma de la columna
         for (int i = 0; i < 3; i++) {
-            int suma=0;
+            int sumaColumnas=0;
             for (int j = 0; j < 3; j++) {
-                suma+=numeros[j][i];
+                sumaColumnas+=numeros[j][i];
             }
-            System.out.println("Suma de la columna "+ (i+1)+ " es " + suma);
+            System.out.println("Suma de la columna "+ (i+1)+ " es " + sumaColumnas);
         }
         int sumaDiagonal=0;
         //Hace la suma de la diagonal principal
